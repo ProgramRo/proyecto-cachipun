@@ -1,5 +1,7 @@
+// Se agregan las alertas de bienvenida
+alert("¡Hola! Bienvenido/a al juego del Cachipun tecnológico. \n¡Que lo disfrutes!")
 // Se piden los datos de entrada de las veces que desea jugar
-var jugadas = prompt("Cuántas veces desea jugar");
+var jugadas = prompt("¿Cuántas veces desea jugar?");
 // Se realiza la conversión de valor texto a valor número
 jugadas = parseInt(jugadas);
 // Se agrega contador de rondas para que el usuario sepa en qué jugada va
